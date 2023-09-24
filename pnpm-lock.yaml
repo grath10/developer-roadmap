@@ -4,15 +4,15 @@ specifiers:
   '@astrojs/react': ^3.0.2
   '@astrojs/sitemap': ^3.0.0
   '@astrojs/tailwind': ^5.0.0
-  '@fingerprintjs/fingerprintjs': ^4.0.1
+  '@fingerprintjs/fingerprintjs': ^4.1.0
   '@nanostores/react': ^0.7.1
-  '@playwright/test': ^1.38.0
+  '@playwright/test': ^1.38.1
   '@tailwindcss/typography': ^0.5.10
   '@types/js-cookie': ^3.0.4
   '@types/prismjs': ^1.26.0
-  '@types/react': ^18.2.21
+  '@types/react': ^18.2.22
   '@types/react-dom': ^18.2.7
-  astro: ^3.1.0
+  astro: ^3.1.2
   astro-compress: ^2.0.15
   csv-parser: ^3.0.0
   dracula-prism: ^2.1.13
@@ -24,8 +24,8 @@ specifiers:
   markdown-it: ^13.0.1
   nanostores: ^0.9.3
   node-html-parser: ^6.1.10
-  npm-check-updates: ^16.14.3
-  openai: ^4.7.1
+  npm-check-updates: ^16.14.4
+  openai: ^4.10.0
   prettier: ^3.0.3
   prettier-plugin-astro: ^0.12.0
   prettier-plugin-tailwindcss: ^0.5.4
@@ -39,14 +39,14 @@ specifiers:
   tailwindcss: ^3.3.3
 
 dependencies:
-  '@astrojs/react': 3.0.2_yc2yn5ubdjd5trfshy6qweraa4
+  '@astrojs/react': 3.0.2_6wsxp44udriocr5645qfs55vei
   '@astrojs/sitemap': 3.0.0
-  '@astrojs/tailwind': 5.0.0_mn5iaccysumaphrenpg3sg3qnq
-  '@fingerprintjs/fingerprintjs': 4.0.1
+  '@astrojs/tailwind': 5.0.0_cjwijnbj2hsen6662224rk3agq
+  '@fingerprintjs/fingerprintjs': 4.1.0
   '@nanostores/react': 0.7.1_emwwo2jcrtkwh6ezq72yh7qzui
-  '@types/react': 18.2.21
+  '@types/react': 18.2.22
   '@types/react-dom': 18.2.7
-  astro: 3.1.0
+  astro: 3.1.2
   astro-compress: 2.0.15
   dracula-prism: 2.1.13
   jose: 4.14.6
@@ -54,7 +54,7 @@ dependencies:
   lucide-react: 0.279.0_react@18.2.0
   nanostores: 0.9.3
   node-html-parser: 6.1.10
-  npm-check-updates: 16.14.3
+  npm-check-updates: 16.14.4
   prismjs: 1.29.0
   react: 18.2.0
   react-confetti: 6.1.0_react@18.2.0
@@ -65,7 +65,7 @@ dependencies:
   tailwindcss: 3.3.3
 
 devDependencies:
-  '@playwright/test': 1.38.0
+  '@playwright/test': 1.38.1
   '@tailwindcss/typography': 0.5.10_tailwindcss@3.3.3
   '@types/js-cookie': 3.0.4
   '@types/prismjs': 1.26.0
@@ -73,7 +73,7 @@ devDependencies:
   gh-pages: 6.0.0
   js-yaml: 4.1.0
   markdown-it: 13.0.1
-  openai: 4.7.1
+  openai: 4.10.0
   prettier: 3.0.3
   prettier-plugin-astro: 0.12.0
   prettier-plugin-tailwindcss: 0.5.4_wvmited2dexscx3gbghlxlhk7e
@@ -104,13 +104,13 @@ packages:
     resolution: {integrity: sha512-NQ4ppp1CM0HNkKbJNM4saVSfmUYzGlRalF6wx7F6T/MYHYSWGuojY89/oFTy4t8VlOGUCUijlsVNNeziWaUo5g==}
     dev: false
 
-  /@astrojs/markdown-remark/3.2.0_astro@3.1.0:
+  /@astrojs/markdown-remark/3.2.0_astro@3.1.2:
     resolution: {integrity: sha512-jigyLfefUZPKgVmmraCkVpdUuFH1R3SrpgQO13axsgwLDBgkggaQpNR5Ag4O9PDualeBtbdt30aYSfvnBKx9Hg==}
     peerDependencies:
       astro: ^3.1.0
     dependencies:
       '@astrojs/prism': 3.0.0
-      astro: 3.1.0
+      astro: 3.1.2
       github-slugger: 2.0.0
       import-meta-resolve: 3.0.0
       mdast-util-definitions: 6.0.0
@@ -135,7 +135,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/3.0.2_yc2yn5ubdjd5trfshy6qweraa4:
+  /@astrojs/react/3.0.2_6wsxp44udriocr5645qfs55vei:
     resolution: {integrity: sha512-aooNIuQxTg+IWGMZPuIEwBeBi4/TCPCMsr3714zuLjAjukVd5ZrX/bCNxJqDWU4HNwUm4XFU1OhcEvYOHa5uMQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -144,7 +144,7 @@ packages:
       react: ^17.0.2 || ^18.0.0
       react-dom: ^17.0.2 || ^18.0.0
     dependencies:
-      '@types/react': 18.2.21
+      '@types/react': 18.2.22
       '@types/react-dom': 18.2.7
       '@vitejs/plugin-react': 4.0.4_vite@4.4.9
       react: 18.2.0
@@ -162,13 +162,13 @@ packages:
       zod: 3.21.1
     dev: false
 
-  /@astrojs/tailwind/5.0.0_mn5iaccysumaphrenpg3sg3qnq:
+  /@astrojs/tailwind/5.0.0_cjwijnbj2hsen6662224rk3agq:
     resolution: {integrity: sha512-bMZZNNm/SW+ijUKMQDhdiuNWDdR3CubEKUHb2Ran4Arx1ikWn/kKIkFDXUV+MUnsLa7s19x9VMRlARRyKbqMkQ==}
     peerDependencies:
       astro: ^3.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 3.1.0
+      astro: 3.1.2
       autoprefixer: 10.4.15_postcss@8.4.29
       postcss: 8.4.29
       postcss-load-config: 4.0.1_postcss@8.4.29
@@ -177,8 +177,8 @@ packages:
       - ts-node
     dev: false
 
-  /@astrojs/telemetry/3.0.1:
-    resolution: {integrity: sha512-7zJMuikRDQ0LLLivteu0+y4pqdgznrChFiRrY3qmKlOEkLWD1T3u1a5M970lvpErP7Vgh4P298JBPjv8LTj+sw==}
+  /@astrojs/telemetry/3.0.2:
+    resolution: {integrity: sha512-ef+jqCkqopCzjGfsMsr+8p56Nj6F9ZzouWcWZt+dKsqbRccI3c8K3jfkLcdq4AyfFZtKBDB6N4ZuI68g33oiOg==}
     engines: {node: '>=18.14.1'}
     dependencies:
       ci-info: 3.8.0
@@ -843,8 +843,8 @@ packages:
     dev: false
     optional: true
 
-  /@fingerprintjs/fingerprintjs/4.0.1:
-    resolution: {integrity: sha512-utXfX0ntmU08MxQ1cfKRbri57xb+aqYNIt2UNYcPsT/fQgKhZsnIBGRIhEifMZ7NZDyGLAhctWaytDkC27fibA==}
+  /@fingerprintjs/fingerprintjs/4.1.0:
+    resolution: {integrity: sha512-a7RMbIgLEnchrL8TUbYNrsZuRAjN1iha32QXmwYheeLrFSpJW5IgDvuoBnT6R+5LJlZOKOpEU3nXIu3OeQsAlw==}
     dependencies:
       tslib: 2.6.2
     dev: false
@@ -986,12 +986,12 @@ packages:
     dev: false
     optional: true
 
-  /@playwright/test/1.38.0:
-    resolution: {integrity: sha512-xis/RXXsLxwThKnlIXouxmIvvT3zvQj1JE39GsNieMUrMpb3/GySHDh2j8itCG22qKVD4MYLBp7xB73cUW/UUw==}
+  /@playwright/test/1.38.1:
+    resolution: {integrity: sha512-NqRp8XMwj3AK+zKLbZShl0r/9wKgzqI/527bkptKXomtuo+dOjU9NdMASQ8DNC9z9zLOMbG53T4eihYr3XR+BQ==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      playwright: 1.38.0
+      playwright: 1.38.1
     dev: true
 
   /@pnpm/config.env-replace/1.1.0:
@@ -1227,11 +1227,11 @@ packages:
   /@types/react-dom/18.2.7:
     resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
     dependencies:
-      '@types/react': 18.2.21
+      '@types/react': 18.2.22
     dev: false
 
-  /@types/react/18.2.21:
-    resolution: {integrity: sha512-neFKG/sBAwGxHgXiIxnbm3/AAVQ/cMRS93hvBpg8xYRbeQSPVABp9U2bRnPf0iI4+Ucdv3plSxKK+3CW2ENJxA==}
+  /@types/react/18.2.22:
+    resolution: {integrity: sha512-60fLTOLqzarLED2O3UQImc/lsNRgG0jE/a1mPW9KjMemY0LMITWEsbS4VvZ4p6rorEHd5YKxxmMKSDK505GHpA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -1426,15 +1426,15 @@ packages:
       terser: 5.19.3
     dev: false
 
-  /astro/3.1.0:
-    resolution: {integrity: sha512-hVPZg9uDafqJbDwOwtcujwhJ6Qp3BCaIj1cvablTYI0jdYrZSvcybhIMTf8NhzK5smvZy2Bv9eEDYXLpiLDrRQ==}
+  /astro/3.1.2:
+    resolution: {integrity: sha512-9rlKyk6Qmw50Pc188+ey7JAEYBsJGh5an46AXGPMHIdEkH6YOc4b2z9Rr+TNF8QmM/U+C2ZQFRVQyCKU4i8/pg==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 2.1.0
       '@astrojs/internal-helpers': 0.2.0
-      '@astrojs/markdown-remark': 3.2.0_astro@3.1.0
-      '@astrojs/telemetry': 3.0.1
+      '@astrojs/markdown-remark': 3.2.0_astro@3.1.2
+      '@astrojs/telemetry': 3.0.2
       '@babel/core': 7.22.20
       '@babel/generator': 7.22.15
       '@babel/parser': 7.22.16
@@ -4087,8 +4087,8 @@ packages:
       npm-normalize-package-bin: 3.0.1
     dev: false
 
-  /npm-check-updates/16.14.3:
-    resolution: {integrity: sha512-iviPM0LiTFGUtk+kMtcMVLNeGuSORThj9Cho7GV/Z2l5dMdXFrcgIarMSr6d6f1wYJJBIthuNdJWXZ4NH5VPEg==}
+  /npm-check-updates/16.14.4:
+    resolution: {integrity: sha512-PKg1wv3vno75/9qgRLqV2huBO7eukOlW+PmIGl7LPXjElfYTUTWUtaMOdOckImaSj4Uqe46W/zMbMFZQp5dHRQ==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
@@ -4233,8 +4233,8 @@ packages:
       mimic-fn: 4.0.0
     dev: false
 
-  /openai/4.7.1:
-    resolution: {integrity: sha512-4Um9A4aLGzZxyENyway0zVgi69BOxaqXmjOCKp3PUteOvSn9TeVf6IjkaNY8k/LXYG5l2e7PpacOl2sxsrTc/w==}
+  /openai/4.10.0:
+    resolution: {integrity: sha512-II4b5/7qzwYkqA9MSjgqdofCc798EW+dtF2h6qNaVLet+qO7FShAJTWnoyzb50J4ZH1rPxRFAsmDLIhY3PT6DQ==}
     hasBin: true
     dependencies:
       '@types/node': 18.17.17
@@ -4459,18 +4459,18 @@ packages:
     dependencies:
       find-up: 4.1.0
 
-  /playwright-core/1.38.0:
-    resolution: {integrity: sha512-f8z1y8J9zvmHoEhKgspmCvOExF2XdcxMW8jNRuX4vkQFrzV4MlZ55iwb5QeyiFQgOFCUolXiRHgpjSEnqvO48g==}
+  /playwright-core/1.38.1:
+    resolution: {integrity: sha512-tQqNFUKa3OfMf4b2jQ7aGLB8o9bS3bOY0yMEtldtC2+spf8QXG9zvXLTXUeRsoNuxEYMgLYR+NXfAa1rjKRcrg==}
     engines: {node: '>=16'}
     hasBin: true
     dev: true
 
-  /playwright/1.38.0:
-    resolution: {integrity: sha512-fJGw+HO0YY+fU/F1N57DMO+TmXHTrmr905J05zwAQE9xkuwP/QLDk63rVhmyxh03dYnEhnRbsdbH9B0UVVRB3A==}
+  /playwright/1.38.1:
+    resolution: {integrity: sha512-oRMSJmZrOu1FP5iu3UrCx8JEFRIMxLDM0c/3o4bpzU5Tz97BypefWf7TuTNPWeCe279TPal5RtPPZ+9lW/Qkow==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      playwright-core: 1.38.0
+      playwright-core: 1.38.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
