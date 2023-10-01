@@ -9,10 +9,10 @@ specifiers:
   '@playwright/test': ^1.38.1
   '@tailwindcss/typography': ^0.5.10
   '@types/js-cookie': ^3.0.4
-  '@types/prismjs': ^1.26.0
-  '@types/react': ^18.2.22
-  '@types/react-dom': ^18.2.7
-  astro: ^3.1.2
+  '@types/prismjs': ^1.26.1
+  '@types/react': ^18.2.23
+  '@types/react-dom': ^18.2.8
+  astro: ^3.2.0
   astro-compress: ^2.0.15
   csv-parser: ^3.0.0
   dracula-prism: ^2.1.13
@@ -21,11 +21,11 @@ specifiers:
   js-cookie: ^3.0.5
   js-yaml: ^4.1.0
   lucide-react: ^0.279.0
-  markdown-it: ^13.0.1
+  markdown-it: ^13.0.2
   nanostores: ^0.9.3
   node-html-parser: ^6.1.10
   npm-check-updates: ^16.14.4
-  openai: ^4.10.0
+  openai: ^4.11.0
   prettier: ^3.0.3
   prettier-plugin-astro: ^0.12.0
   prettier-plugin-tailwindcss: ^0.5.4
@@ -39,14 +39,14 @@ specifiers:
   tailwindcss: ^3.3.3
 
 dependencies:
-  '@astrojs/react': 3.0.2_6wsxp44udriocr5645qfs55vei
+  '@astrojs/react': 3.0.2_j2mhzsq3cu56y5h4ygq4kcs2pi
   '@astrojs/sitemap': 3.0.0
-  '@astrojs/tailwind': 5.0.0_cjwijnbj2hsen6662224rk3agq
+  '@astrojs/tailwind': 5.0.0_ncnrcbkqr56oahlx2ptlen744y
   '@fingerprintjs/fingerprintjs': 4.1.0
   '@nanostores/react': 0.7.1_emwwo2jcrtkwh6ezq72yh7qzui
-  '@types/react': 18.2.22
-  '@types/react-dom': 18.2.7
-  astro: 3.1.2
+  '@types/react': 18.2.23
+  '@types/react-dom': 18.2.8
+  astro: 3.2.0
   astro-compress: 2.0.15
   dracula-prism: 2.1.13
   jose: 4.14.6
@@ -68,12 +68,12 @@ devDependencies:
   '@playwright/test': 1.38.1
   '@tailwindcss/typography': 0.5.10_tailwindcss@3.3.3
   '@types/js-cookie': 3.0.4
-  '@types/prismjs': 1.26.0
+  '@types/prismjs': 1.26.1
   csv-parser: 3.0.0
   gh-pages: 6.0.0
   js-yaml: 4.1.0
-  markdown-it: 13.0.1
-  openai: 4.10.0
+  markdown-it: 13.0.2
+  openai: 4.11.0
   prettier: 3.0.3
   prettier-plugin-astro: 0.12.0
   prettier-plugin-tailwindcss: 0.5.4_wvmited2dexscx3gbghlxlhk7e
@@ -104,13 +104,13 @@ packages:
     resolution: {integrity: sha512-NQ4ppp1CM0HNkKbJNM4saVSfmUYzGlRalF6wx7F6T/MYHYSWGuojY89/oFTy4t8VlOGUCUijlsVNNeziWaUo5g==}
     dev: false
 
-  /@astrojs/markdown-remark/3.2.0_astro@3.1.2:
+  /@astrojs/markdown-remark/3.2.0_astro@3.2.0:
     resolution: {integrity: sha512-jigyLfefUZPKgVmmraCkVpdUuFH1R3SrpgQO13axsgwLDBgkggaQpNR5Ag4O9PDualeBtbdt30aYSfvnBKx9Hg==}
     peerDependencies:
       astro: ^3.1.0
     dependencies:
       '@astrojs/prism': 3.0.0
-      astro: 3.1.2
+      astro: 3.2.0
       github-slugger: 2.0.0
       import-meta-resolve: 3.0.0
       mdast-util-definitions: 6.0.0
@@ -135,7 +135,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/3.0.2_6wsxp44udriocr5645qfs55vei:
+  /@astrojs/react/3.0.2_j2mhzsq3cu56y5h4ygq4kcs2pi:
     resolution: {integrity: sha512-aooNIuQxTg+IWGMZPuIEwBeBi4/TCPCMsr3714zuLjAjukVd5ZrX/bCNxJqDWU4HNwUm4XFU1OhcEvYOHa5uMQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -144,8 +144,8 @@ packages:
       react: ^17.0.2 || ^18.0.0
       react-dom: ^17.0.2 || ^18.0.0
     dependencies:
-      '@types/react': 18.2.22
-      '@types/react-dom': 18.2.7
+      '@types/react': 18.2.23
+      '@types/react-dom': 18.2.8
       '@vitejs/plugin-react': 4.0.4_vite@4.4.9
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -162,13 +162,13 @@ packages:
       zod: 3.21.1
     dev: false
 
-  /@astrojs/tailwind/5.0.0_cjwijnbj2hsen6662224rk3agq:
+  /@astrojs/tailwind/5.0.0_ncnrcbkqr56oahlx2ptlen744y:
     resolution: {integrity: sha512-bMZZNNm/SW+ijUKMQDhdiuNWDdR3CubEKUHb2Ran4Arx1ikWn/kKIkFDXUV+MUnsLa7s19x9VMRlARRyKbqMkQ==}
     peerDependencies:
       astro: ^3.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 3.1.2
+      astro: 3.2.0
       autoprefixer: 10.4.15_postcss@8.4.29
       postcss: 8.4.29
       postcss-load-config: 4.0.1_postcss@8.4.29
@@ -1216,22 +1216,22 @@ packages:
     resolution: {integrity: sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==}
     dev: false
 
-  /@types/prismjs/1.26.0:
-    resolution: {integrity: sha512-ZTaqn/qSqUuAq1YwvOFQfVW1AR/oQJlLSZVustdjwI+GZ8kr0MSHBj0tsXPW1EqHubx50gtBEjbPGsdZwQwCjQ==}
+  /@types/prismjs/1.26.1:
+    resolution: {integrity: sha512-Q7jDsRbzcNHIQje15CS/piKhu6lMLb9jwjxSfEIi4KcFKXW23GoJMkwQiJ8VObyfx+VmUaDcJxXaWN+cTCjVog==}
     dev: true
 
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: false
 
-  /@types/react-dom/18.2.7:
-    resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
+  /@types/react-dom/18.2.8:
+    resolution: {integrity: sha512-bAIvO5lN/U8sPGvs1Xm61rlRHHaq5rp5N3kp9C+NJ/Q41P8iqjkXSu0+/qu8POsjH9pNWb0OYabFez7taP7omw==}
     dependencies:
-      '@types/react': 18.2.22
+      '@types/react': 18.2.23
     dev: false
 
-  /@types/react/18.2.22:
-    resolution: {integrity: sha512-60fLTOLqzarLED2O3UQImc/lsNRgG0jE/a1mPW9KjMemY0LMITWEsbS4VvZ4p6rorEHd5YKxxmMKSDK505GHpA==}
+  /@types/react/18.2.23:
+    resolution: {integrity: sha512-qHLW6n1q2+7KyBEYnrZpcsAmU/iiCh9WGCKgXvMxx89+TYdJWRjZohVIo9XTcoLhfX3+/hP0Pbulu3bCZQ9PSA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -1426,14 +1426,14 @@ packages:
       terser: 5.19.3
     dev: false
 
-  /astro/3.1.2:
-    resolution: {integrity: sha512-9rlKyk6Qmw50Pc188+ey7JAEYBsJGh5an46AXGPMHIdEkH6YOc4b2z9Rr+TNF8QmM/U+C2ZQFRVQyCKU4i8/pg==}
+  /astro/3.2.0:
+    resolution: {integrity: sha512-sDQnSFV46ZzNkVU6co5f8wilZFmGiWsqnIVoMhd5/XPU76iZdA40WqFyBOhGaji7hGuqbcjN8MGobMg53lsoUg==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 2.1.0
       '@astrojs/internal-helpers': 0.2.0
-      '@astrojs/markdown-remark': 3.2.0_astro@3.1.2
+      '@astrojs/markdown-remark': 3.2.0_astro@3.2.0
       '@astrojs/telemetry': 3.0.2
       '@babel/core': 7.22.20
       '@babel/generator': 7.22.15
@@ -3352,8 +3352,8 @@ packages:
       - supports-color
     dev: false
 
-  /markdown-it/13.0.1:
-    resolution: {integrity: sha512-lTlxriVoy2criHP0JKRhO2VDG9c2ypWCsT237eDiLqi09rmbKoUetyGHq2uOIRoRS//kfoJckS0eUzzkDR+k2Q==}
+  /markdown-it/13.0.2:
+    resolution: {integrity: sha512-FtwnEuuK+2yVU7goGn/MJ0WBZMM9ZPgU9spqlFs7/A/pDIUNSOQZhUgOqYCficIuR2QaFnrt8LHqBWsbTAoI5w==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
@@ -4233,8 +4233,8 @@ packages:
       mimic-fn: 4.0.0
     dev: false
 
-  /openai/4.10.0:
-    resolution: {integrity: sha512-II4b5/7qzwYkqA9MSjgqdofCc798EW+dtF2h6qNaVLet+qO7FShAJTWnoyzb50J4ZH1rPxRFAsmDLIhY3PT6DQ==}
+  /openai/4.11.0:
+    resolution: {integrity: sha512-zU/MJxZTijL0Ym6CKoQPbnmHDsGZlH9g5zorPszdc41OyLxlhnlrorBcGzmGS9qpnjGGNncJR1hfg/mXq0OONw==}
     hasBin: true
     dependencies:
       '@types/node': 18.17.17
